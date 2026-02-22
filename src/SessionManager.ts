@@ -5,6 +5,7 @@ let storage: Storage = sessionStorage;
 /**
  * Initializes the session manager with the specified storage type.
  * @param storageType - The type of storage to use ('session' or 'local').
+ * changing to check if app pickup
  */
 export function initSessionManager(storageType: 'session' | 'local' = 'session'): void {
   if (typeof window === "undefined") return;
